@@ -19,4 +19,4 @@ columns = st.columns([1.1, 1.0, 0.9])
 
 for k in range(len(columns)):
     with columns[k]:
-        st.subheader(f"test{k+1}")
+        st.subheader(f"test..{k+1}")
